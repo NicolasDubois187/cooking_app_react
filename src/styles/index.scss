@@ -1,3 +1,22 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+.cookContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    flex: 1 0 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+img {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 1500px;
+    border: 2px solid rgba(244, 240, 255, 0.989);
 }
